@@ -59,17 +59,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="analysis_files/libs/clipboard/clipboard.min.js"></script>
-<script src="analysis_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="analysis_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="analysis_files/libs/quarto-html/popper.min.js"></script>
-<script src="analysis_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="analysis_files/libs/quarto-html/anchor.min.js"></script>
-<link href="analysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="analysis_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="analysis_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="analysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="analysis_files/libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="report_files/libs/clipboard/clipboard.min.js"></script>
+<script src="report_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="report_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="report_files/libs/quarto-html/popper.min.js"></script>
+<script src="report_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="report_files/libs/quarto-html/anchor.min.js"></script>
+<link href="report_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="report_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="report_files/libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -125,7 +125,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#sec-conclusion" id="toc-sec-conclusion" class="nav-link" data-scroll-target="#sec-conclusion">결론</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="analysis.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="report.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
 <main class="content" id="quarto-document-content">
 
@@ -236,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div id="national-crime-analysis" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="analysis_files/figure-html/national-crime-analysis-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="report_files/figure-html/national-crime-analysis-output-1.png" class="img-fluid figure-img"></p>
 <figcaption>전국 시도별 인구수와 범죄발생수 상관관계 분석</figcaption>
 </figure>
 </div>
@@ -366,7 +366,7 @@ P-value: 1.596e-16
 <div class="cell-output cell-output-display">
 <div id="crime-rate-ranking" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="analysis_files/figure-html/crime-rate-ranking-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="report_files/figure-html/crime-rate-ranking-output-1.png" class="img-fluid figure-img"></p>
 <figcaption>전국 시도별 범죄율 순위 및 인구규모별 분석</figcaption>
 </figure>
 </div>
@@ -648,31 +648,16 @@ P-value: 1.596e-16
 <section id="인터랙티브-대시보드" class="level3">
 <h3 class="anchored" data-anchor-id="인터랙티브-대시보드">6.4 인터랙티브 대시보드</h3>
 <p>프로젝트의 주요 결과를 시각적으로 탐색할 수 있는 Streamlit 기반 대시보드를 개발했습니다.</p>
-<p><strong>🌐 <a href="https://your-daegu-safety-dashboard.streamlit.app">대시보드 바로 가기</a></strong></p>
-<p><strong>대시보드 주요 기능</strong></p>
-<ol type="1">
-<li><strong>순위험도 분석 탭</strong>
-<ul>
-<li>실시간 가중치 조절 기능</li>
-<li>위험도 지도 시각화</li>
-<li>범죄발생수와의 상관관계 분석</li>
-</ul></li>
-<li><strong>개별 항목 시각화 탭</strong>
-<ul>
-<li>각 안전/위험 요소별 지도 표시</li>
-<li>행정동별 순위 테이블</li>
-</ul></li>
-<li><strong>위험지역 분석 탭</strong>
-<ul>
-<li>상위 6개 위험지역 상세 분석</li>
-<li>지역별 특성 비교 차트</li>
-</ul></li>
-<li><strong>안전지역 분석 탭</strong>
-<ul>
-<li>상위 6개 안전지역 성공 요인 분석</li>
-<li>모범 사례 제시</li>
-</ul></li>
-</ol>
+<p>** <a href="https://daegu-crime-dashboard.streamlit.app">대구 범죄 분석 대시보드 바로 가기</a>**</p>
+<p><strong>대시보드 주요 탭 구성</strong></p>
+<p><strong>1. 순위험도 분석</strong> - <strong>실시간 가중치 조절</strong>: 사이드바에서 위험요소와 안전요소별 가중치를 슬라이더로 조정 - <strong>위험도 지도</strong>: 대구시 행정동별 순위험도를 색상으로 표현한 인터랙티브 지도 - <strong>실시간 순위 테이블</strong>: 가중치 변경에 따른 행정동별 순위험도 실시간 업데이트 - <strong>상관관계 분석</strong>: 계산된 순위험도와 실제 범죄발생수 간의 산점도 및 상관계수 표시</p>
+<p><strong>2. 개별 항목 시각화</strong> - <strong>요소별 지도 시각화</strong>: 치안기관, CCTV, 인구밀도 등 각 변수를 개별적으로 지도에 표시 - <strong>색상 구분</strong>: 안전요소(파란색 계열), 위험요소(빨간색 계열)로 직관적 구분 - <strong>프로그레스 바 테이블</strong>: 각 행정동별 해당 변수의 상대적 수치를 진행률 바로 표시 - <strong>정렬 및 필터링</strong>: 수치 기준 정렬을 통한 상위/하위 지역 쉬운 파악</p>
+<p><strong>3. 위험지역 분석</strong> - <strong>상위 6개 위험지역 심층 분석</strong>: 진천동, 신당동, 안심1동, 월성1동, 관문동, 무태조야동 - <strong>패턴 분석 차트</strong>: 전체 평균 대비 비율을 막대그래프로 시각화 - <strong>지역별 상세 카드</strong>: 각 위험지역의 특성을 색상별 카드 형태로 구성 - 진천동(1위): 극도의 인구과밀 + 안전시설 절대부족 - 신당동(2위): 외국인 초집중지역 + CCTV 거의 없음 - 안심1동(3위): 치안기관 완전공백 + 높은 인구밀도 - <strong>공통 DNA 도출</strong>: 인구 과밀 + 치안 인프라 부족 + 외국인 집중 패턴 확인</p>
+<p><strong>4. 안전지역 분석</strong> - <strong>상위 6개 안전지역 성공요인 분석</strong>: 평리5동, 비산6동, 평리1동, 평리2동, 원대동, 성내2동 - <strong>대조 분석</strong>: 위험지역 vs 안전지역 vs 전체평균 3way 비교 차트 - <strong>성공 공식 제시</strong>: 적정 인구밀도 + 충분한 치안인프라 - <strong>모범사례 카드</strong>: 각 안전지역의 우수 특성을 배지 형태로 표시 - 평리5동: 범죄ZERO 달성 + 모든 지표 우수 - 성내2동: 중심가임에도 치안기관 최우수 - 비산6동: CCTV와 밝은 밤길의 시너지</p>
+<p><strong>5. 분석 개요</strong> - <strong>대구시 범죄율 동향</strong>: 전년 동분기 대비 발생건수 증가 추이 - <strong>검거율 하락 추세</strong>: 범죄 증가 vs 검거율 감소의 이중 문제 시각화 - <strong>분석 필요성</strong>: 데이터 기반 치안 정책의 시급성 강조</p>
+<p><strong>6. 참고자료</strong> - <strong>인구수-범죄발생수 상관관계</strong>: 전국 17개 시도 데이터 기반 검증 - <strong>이중축 그래프</strong>: 인구수(막대)와 범죄발생수(선그래프) 동시 표시 - <strong>순위 테이블</strong>: 인구수 순위와 범죄발생수 순위 비교 분석 - <strong>상관계수 표시</strong>: 강한 양의 상관관계(r≈0.995) 수치적 증명</p>
+<p><strong>기술적 특징</strong> - <strong>반응형 디자인</strong>: PC, 태블릿, 모바일 환경 모두 지원 - <strong>실시간 연산</strong>: 가중치 변경 즉시 모든 차트와 지도 업데이트 - <strong>고성능 지도</strong>: Plotly 기반 인터랙티브 choropleth 지도 - <strong>데이터 캐싱</strong>: Streamlit의 <span class="citation" data-cites="st.cache_data">@st.cache_data</span> 활용으로 빠른 로딩 - <strong>한글 폰트 지원</strong>: 모든 차트에서 한글 깨짐 없이 표시</p>
+<p><strong>사용자 경험</strong> - <strong>직관적 인터페이스</strong>: 탭 구조로 명확한 정보 분류 - <strong>시각적 피드백</strong>: 호버 효과와 툴팁으로 상세 정보 제공 - <strong>탐색적 분석</strong>: 사용자가 직접 가중치를 조절하며 시나리오 분석 가능 - <strong>정책 시뮬레이션</strong>: 치안 인프라 투자 우선순위 결정에 활용 가능</p>
 <p><strong>로컬 실행 방법</strong></p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 로컬에서 실행하려면</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="ex">streamlit</span> run app2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
