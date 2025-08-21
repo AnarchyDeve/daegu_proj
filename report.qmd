@@ -558,7 +558,7 @@ sns.heatmap(p_value_matrix, annot=True, fmt='.3f',
 
 프로젝트의 주요 결과를 시각적으로 탐색할 수 있는 Streamlit 기반 대시보드를 개발했습니다.
 
-**🌐 [대시보드 바로 가기](https://your-daegu-safety-dashboard.streamlit.app)**
+**🌐 [대시보드 바로 가기](https://daegu-crime-dashboard.streamlit.app/)**
 
 **대시보드 주요 기능**
 
